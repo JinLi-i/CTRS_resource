@@ -2,6 +2,8 @@
 This project collects several representative open-source CTRS algorithms and widely used datasets, providing additional online sources for the survey "**Trustworthy Recommender Systems: A Survey from A Causal Learning Perspective**".
 
 ## CTRS Open-source Algorithms
+We organize and list a wide range of open-source CTRS algorithms in Table 1. The listed algorithms are carefully selected and can be used as baselines in future work.
+
 <table>
   <tr>
     <th width="200px">Algorithm</th>
@@ -132,8 +134,11 @@ This project collects several representative open-source CTRS algorithms and wid
     <td><a href="https://github.com/orcax/PGPR">Link</a></td>
   </tr>
 </table>
+<p align="center"><b>Table 1.</b> A list of representative open-source CTRS algorithms.</p>
 
 ## Representative Datasets for CTRS
+We also investigate the datasets commonly employed in CTRS studies. Apart from general recommendation datasets, e.g., the Douban Movie and the Netflix Prize dataset, we highlight several public datasets in Table 2. These datasets have been selected for their specific information, such as sensitive attributes, MAR ratings or users’ reviews, making them especially suitable for evaluating the trustworthiness of CTRS models. Moreover, RecSim, an open-source user-behavior simulation model, shows great help in simulating the environment with popularity bias.
+
 <table>
   <tr>
     <th>Aspect</th>
@@ -203,5 +208,5 @@ This project collects several representative open-source CTRS algorithms and wid
     <td><a href="https://mengtingwan.github.io/data/goodreads">Link</a></td>
   </tr>
 </table>
-
+<p align="center"><b>Table 2.</b> A list of public datasets commonly used for CTRS.</p>
 
