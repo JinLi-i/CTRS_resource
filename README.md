@@ -133,3 +133,75 @@ This project collects several representative open-source CTRS algorithms and wid
   </tr>
 </table>
 
+## Representative Datasets for CTRS
+<table>
+  <tr>
+    <th>Aspect</th>
+    <th>Dataset</th>
+    <th>Specific information</th>
+    <th>#Interactions</th>
+    <th>Reference</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Fairness</td>
+    <td>MovieLens</td>
+    <td>Sensitive attributes (e.g., gender)</td>
+    <td>1,000,209</td>
+    <td>Counterfactual explainable conversational recommendation</td>
+    <td><a href="https://grouplens.org/datasets/movielens/">Link</a></td>
+  </tr>
+  <tr>
+    <td>Insurance</td>
+    <td>Sensitive attributes (e.g., marital status)</td>
+    <td>5,382</td>
+    <td>Towards personalized fairness based on causal notion</td>
+    <td><a href="https://www.kaggle.com/datasets/mrmorj/insurance-recommendation">Link</a></td>
+  </tr>
+  <tr>
+    <td rowspan="3">Robustness</td>
+    <td>Coat</td>
+    <td>Both MAR and MNAR ratings</td>
+    <td>11,600</td>
+    <td>Propensity matters: Measuring and enhancing balancing for recommendation</td>
+    <td><a href="https://www.cs.cornell.edu/~schnabts/mnar/">Link</a></td>
+  </tr>
+  <tr>
+    <td>Yahoo! R3</td>
+    <td>Both MAR and MNAR ratings</td>
+    <td>365,704</td>
+    <td>Propensity matters: Measuring and enhancing balancing for recommendation</td>
+    <td><a href="https://webscope.sandbox.yahoo.com/catalog.php?datatype=r&did=3">Link</a></td>
+  </tr>
+  <tr>
+    <td>Taobao</td>
+    <td>User positive feedback</td>
+    <td>1,515,055</td>
+    <td>Mitigating hidden confounding effects for causal recommendation</td>
+    <td><a href="https://tianchi.aliyun.com/competition/entrance/231532/">Link</a></td>
+  </tr>
+  <tr>
+    <td rowspan="3">Explainability</td>
+    <td>Yelp</td>
+    <td>Users’ reviews</td>
+    <td>6,990,280</td>
+    <td>Counterfactual explainable conversational recommendation</td>
+    <td><a href="https://www.yelp.com/dataset/">Link</a></td>
+  </tr>
+  <tr>
+    <td>Amazon</td>
+    <td>Users’ reviews</td>
+    <td>230,139,802</td>
+    <td>Counterfactual explainable recommendation</td>
+    <td><a href="https://nijianmo.github.io/amazon/">Link</a></td>
+  </tr>
+  <tr>
+    <td>Goodreads</td>
+    <td>Users’ reviews</td>
+    <td>15,739,967</td>
+    <td>PRINCE: provider-side interpretability with counterfactual explanations in recommender systems</td>
+    <td><a href="https://mengtingwan.github.io/data/goodreads">Link</a></td>
+  </tr>
+</table>
+
+
